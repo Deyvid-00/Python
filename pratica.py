@@ -1,7 +1,9 @@
-def area (largura, comprimento):
-    a = l * c
-    print(f'A area do terreno com {largura}m largura e {comprimento}m de comprimento é {a}')
+def dobrar(list):
+    pos = 0
+    while pos < len(list):
+        list[pos] *= 2
+        pos += 1
 
-l = float(input('Qual a largura em metros? '))
-c = float(input('Qual o comprimento em metros? '))
-area(l, c)
+valores = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10]
+dobrar(valores)
+print(valores)
